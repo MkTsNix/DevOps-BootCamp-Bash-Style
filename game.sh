@@ -1,9 +1,9 @@
 #!/bin/bash
 
-echo -e "\n NumberJack \n"
+echo -e "\\n NumberJack \\n"
 ch=0
 while [ "$ch" -ne 3 ]; do
-    echo  "  
+    echo  "
          PLAY : Hit 1 and enter.
          HELP : Hit 2 and enter.
          EXIT : Hit 3 and enter.
@@ -38,7 +38,7 @@ else
         break
 fi
 if [ "$c" -eq 1 ];then
-            echo -e "\nGAME OVER\n"
+            echo -e "\\nGAME OVER\\n"
             echo "You scored $p points"
 fi
         done
